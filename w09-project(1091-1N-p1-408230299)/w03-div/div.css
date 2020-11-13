@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(132, 207, 61);
+    font-size: 16px;
+  }
+  
+  #container {
+    width: 90%;
+    border: 4px solid rgb(187, 83, 187);
+    margin: 20px auto;
+  }
+  #heading {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(181, 196, 46);
+    text-align: center;
+  }
+  
+  #heading ul {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 20px;
+  }
+  
+  #heading li {
+    list-style-type: none;
+    padding: 0 5px 10px 5px;
+    font-size: 0.9rem;
+  }
+  
+  #heading ul a {
+    background-color: rgb(235, 209, 201);
+    padding: 5px;
+  }
+  
+  #heading ul a:hover {
+    background-color: rgb(233, 10, 10);
+  }
+  #main ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-left: 20px;
+  }
+  
+  #main li {
+    list-style-type: none;
+    padding: 0 5px 10px 5px;
+    font-size: 0.9rem;
+  }
+  
+  #main ul a {
+    background-color: rgba(235, 227, 201, 0.904);
+    padding: 5px;
+  }
+  
+  #main ul a:hover {
+    background-color: rgb(233, 10, 10);
+  }
+  #main {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(96, 175, 155);
+    display: flex;
+  }
+  aside {
+    width: 20%;
+    height: 400px;
+    background-color: rgb(142, 225, 240);
+  }
+  #section {
+    width: 80%;
+    height: 400px;
+    background-color: rgb(224, 236, 155);
+  }
+  #footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(171, 207, 240);
+  }
